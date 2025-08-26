@@ -10,7 +10,7 @@ export function HomePage() {
     const navigate = useNavigate();
     const location = useLocation();
     
-/*     useEffect(() => {
+  useEffect(() => {
         const interval = setInterval(() => {
             setIsFading(true);
             setTimeout(() => {
@@ -22,7 +22,7 @@ export function HomePage() {
         }, 5000);
 
         return () => clearInterval(interval)
-    }, [location.pathname]) */
+    }, [location.pathname])
 
 
 

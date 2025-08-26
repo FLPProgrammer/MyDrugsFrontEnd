@@ -54,7 +54,7 @@ export const Container = styled.div`
         position: relative;
         width: 500px;
         top: 5%;
-        left: -1%;
+        left: 2%;
         color: ${({ theme }) => theme.colors.darkGray};
         gap: 20px;
 

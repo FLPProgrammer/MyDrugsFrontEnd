@@ -22,7 +22,7 @@ export const Container = styled.div`
             position: absolute;
             width: 1200px;
             top: 37%;
-            left: 8%;
+            left: 7%;
             z-index: 1000;
         }
     }
@@ -54,7 +54,7 @@ export const Container = styled.div`
         position: relative;
         width: 500px;
         top: 5%;
-        left: -3%;
+        left: -2%;
         color: ${({ theme }) => theme.colors.darkGray};
         gap: 20px;
 
